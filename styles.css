@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text&display=swap);
+
+/* You can add global styles to this file, and also import other style files */
+*{
+  font-family: 'DM sans','cursive';
+}
+body {
+  margin: 0px;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+input:focus,
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus{
+    background-color: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/*# sourceMappingURL=styles.css.map*/
